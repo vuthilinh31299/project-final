@@ -1,0 +1,1 @@
+window.fiuzu.map.models=window.fiuzu.map.models||{};

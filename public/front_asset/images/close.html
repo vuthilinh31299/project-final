@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+<title>Error 404: Page not found</title>
+<meta name="keywords" content="Justgola, automatic trip planner, trip planner, trip generator, route planner, personalized travel guide">
+<meta name="description" content="Justgola will automatically generate your personalized plan, based on your travel duration, budget per day, travel interest and the places you may want to visit" />
+<meta name='B-verify' content='9115805862a871f1c7529117064703a405d6af4a' />
+<meta name="apple-itunes-app" content="app-id=1056005447">
+<meta name="google-play-app" content="app-id=com.fiuzu.android">
+<meta name="google-signin-client_id" content="703318927609-m6ktrl05pfrdeim0cd78dg68rf38pf74.apps.googleusercontent.com">
+<meta name="google-site-verification" content="Ca3ke-vY00PGIx-MsPfxJ29c460iDmOr2LYHmll0i0s" />
+<meta property="fb:app_id" content="399094896869309" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Justgola - Plan your trip in seconds" />
+<meta property="og:image" content="https://www.justgola.com/static/images/justgola_fb.png" />
+<meta property="og:url" content="" />
+<meta property="og:site_name" content="Justgola" />
+<meta property="og:description" content="Justgola will automatically generate your personalized plan, based on your travel duration, budget per day, travel interest and the places you may want to visit" />
+<script src="/cdn-cgi/apps/head/OTJWyJdCPY0wnBkYhE4phKeExTA.js"></script><link rel="shortcut icon" href="/static/images/justgola/favicon.ico?v=1.1.320">
+
+<link href="/static/css/bootstrap/3.0.2/bootstrap.min.css?v=1.1.320" rel="stylesheet" media="all">
+<link href="/static/css/all.css?v=1.1.320" rel="stylesheet" type="text/css" />
+
+<!--[if lt IE 8]>
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+  <![endif]-->
+<!--[if lt IE 9]>
+    <link rel="stylesheet" type="text/css" href="/static/v2/css/only-ie9.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ie8/0.2.9/ie8.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <![endif]-->
+<script>
+  
+  
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-44408052-4', 'auto');
+  ga('send', 'pageview');
+  </script>
+<script src="https://js.stripe.com/v2/"></script>
+</head>
+<body id="" class="   " itemscope itemtype="http://schema.org/WebPage">
+<div id="loading-box-planner" class="loading-bg hidden">
+<div class="loading__box">
+<div class="loading__box__spin">
+</div>
+<h3>Processing...</h3>
+</div>
+</div>
+<div class="fui-row-full">
+
+<nav class="navbar navbar-custom-page">
+<div class="container" id="container-navigation">
+<div class="navbar-header">
+<a id="nav-expander" class="visible-xs visible-sm">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</a>
+<a class="btn-cart visible-xs visible-sm" href="/booking/cart">
+<i class="icomoon-icon-basket"></i><span class="num">...</span>
+</a>
+<a href="/tripplanner" class="hidden-md hidden-lg btn btn-primary btn-new-trip-header">
+<i class="icomoon-icon-plus-2"></i>New trip
+</a>
+<a class="navbar-brand" href="/" title="Go to homepage">
+<img src="/static/images/justgola_logo.png" alt="Fiuzu - Plan your personalized trip in seconds">
+</a>
+<div class="search-menu-mobile-page search-typeahead navbar-left hidden-xs hidden-md">
+<form action="/place" class="navbar-form" id="top-searchbox" role="search">
+<div class="form-group">
+<input type="text" name="term" id="top-search-input" autocomplete="off" class="form-control" size="30" placeholder="Search for itineraries, tours or attractions" value="">
+</div>
+<button type="submit" id="top-search-btn" class="btn btn-default"><i class="fui-gray icomoon-icon-search-3"></i></button>
+<div id="top-search-autocomplete"></div>
+</form>
+</div>
+</div>
+<nav class="menu-mobile-right visible-xs visible-sm">
+
+<div class="search-menu-mobile">
+<a class="nav-search-mobile hidden" href="#"><img width="25" src="/static/v2/images/search.png" alt="Search for itineraries, tours or attraction"></a>
+</div>
+<div class="nav-menu-content">
+<ul class="list-unstyled main-menu-mobile">
+
+<div class="main-menu-mobile-account row">
+<li class="col-xs-6 border-first"><a href="/account/login?next=/404.html">Sign In</a></li>
+<li class="col-xs-6 border-last"><a href="/account/register?next=/404.html">Sign Up</a></li>
+</div>
+<div class="main-menu-mobile-options">
+<li><a href="/">Home</a></li>
+<li><a href="/guide/">Destination</a></li>
+<li><a href="/plan/">Itinerary</a></li>
+<li><a href="/place">Tour &amp; Attraction</a></li>
+<li><a href="/blog/">Blog</a></li>
+</div>
+<div class="social-floating-box">
+<ul class="list-unstyled">
+<li class="share-facebook"><a href="https://www.facebook.com/Justgo.la" target="_blank"><i class="icomoon-icon-facebook"></i></a></li>
+<li class="share-googleplus"><a href="https://plus.google.com/+fiuzu/" rel="publisher" target="_blank"><i class="icomoon-icon-google-plus"></i></a></li>
+<li class="share-twitter"><a href="https://twitter.com/justgola2015" target="_blank"><i class="icomoon-icon-twitter"></i></a></li>
+<li class="share-pinterest"><a href="https://www.pinterest.com/justgola/" target="_blank"><i class="icomoon-icon-pinterest"></i></a></li>
+</ul>
+</div>
+<div class="main-menu-mobile-app row">
+<li class="col-xs-6">
+<a href="https://itunes.apple.com/vn/app/justgola-asia-trip-planner/id1056005447?l=en&mt=8" target="_blank">
+<img data-src="/static/v2/images/appstore.png" alt="Justgola App" title="Justgola App" src="/static/v2/images/appstore.png">
+</a>
+</li>
+<li class="col-xs-6">
+<a href="https://play.google.com/store/apps/details?id=com.fiuzu.android" target="_blank">
+<img data-src="/static/v2/images/googleplay.png" alt="Justgola App" title="Justgola App" src="/static/v2/images/googleplay.png">
+</a>
+</li>
+</div>
+</ul>
+</div>
+</nav>
+<div class="collapse navbar-collapse">
+<ul class="nav navbar-nav navbar-right hidden-xs hidden-sm">
+<li class="hidden-sm">
+<a href="/guide/">Destination</a>
+</li>
+<li>
+<a href="/plan/">Itinerary</a>
+</li>
+<li class="hidden-sm">
+<a href="/place">Tour &amp; Attraction</a>
+</li>
+<li>
+<a href="/travel-app">Free App</a>
+</li>
+<li>
+<a href="/blog/">Blog</a>
+</li>
+<li>
+<a class="btn-cart" href="/booking/cart">
+<i class="icomoon-icon-basket"></i><span class="num">...</span>
+</a>
+</li>
+<li class="dropdown nav-user hidden-xs" id="user-logined"></li>
+<li id="btn-login-checked">
+<div class="navbar-btn">
+<a class="btn btn-danger" href="/account/login">
+Sign In
+</a>
+<a class="btn btn-info" href="/account/register">
+Sign Up
+</a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+
+<div id="content">
+
+<div id="content-login" class="with-bg" style="min-height:540px; text-align:center;width:100%">
+<table style="width:700px;margin:auto">
+<tr>
+<td align="center">
+<div class="" style="text-align:center;width:750px;border-radius:3px;padding:50px 0px">
+<span class="fui-red" style="margin-top:30px;font-size:80px;height:130px;display:block">404</span>
+<h2 style="font-size:20px;" class="fui-gray">The page you are looking for cannot be found.</br>
+<a href="/cdn-cgi/l/email-protection#bed7d0d8d1fed8d7cbc4cb90ddd1d3">Contact us</a> if you think this is an error. Thank you.
+</h2>
+<a href="/">
+<button type="button" style="margin-top:20px;" class="btn btn-default"><i class="icomoon-icon-arrow-left"></i>Home</button>
+</a>
+</div>
+</td>
+</tr>
+</table>
+</div>
+
+</div>
+</div>
+
+<div id="footer-bar" class="page-footer col-md-12">
+<div class="footer-home container text-center">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<a href="http://www.justgola.com">
+<img src="/static/images/justgola_full.png" width="128" height="128" alt="Justgola - Your smart travel local assistant">
+<p class="text-muted"><small>Plan and travel<br /> with confidence</small></p>
+</a>
+<div class="footer-menu col-lg-12 col-md-12 col-xs-12 list-unstyled currency-plugin">
+<div class="background-black">
+<form action="/currency">
+<label id="currency-selector-label" class="screen-reader-only hidden">Choose currency</label>
+<select class="change-currency" name="currency" onchange="debugger;this.form.next.value+=this.form.currency.value;this.form.submit();">
+<option value="AUD">AUD</option>
+<option value="CAD">CAD</option>
+<option value="CHF">CHF</option>
+<option value="CNY">CNY</option>
+<option value="EUR">EUR</option>
+<option value="GBP">GBP</option>
+<option value="HKD">HKD</option>
+<option value="JPY">JPY</option>
+<option value="SGD">SGD</option>
+<option value="USD" selected>USD</option>
+<option value="VND">VND</option>
+<option value="TWD">TWD</option>
+</select>
+<input type="hidden" name="next" value="/404.html?currency=" />
+</form>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-4 col-md-6">
+<ul class="footer-menu col-md-4 col-xs-12 list-unstyled">
+<li class="menu-head"><strong>ABOUT US</strong></li>
+<li><a href="/">Home</a></li>
+<li><a href="/about">About</a></li>
+<li><a href="/jobs">Recruitment</a></li>
+</ul>
+<ul class="footer-menu col-md-4 col-xs-12 list-unstyled">
+<li class="menu-head"><strong>SUPPORT</strong></li>
+<li><a href="/terms">Terms of Use</a></li>
+<li><a href="/contact">Contact us</a></li>
+<li><a href="#chatwithus" onclick="fiuzu.contact()">Chat with us</a></li>
+</ul>
+<ul class="footer-menu col-md-4 col-xs-12 list-unstyled">
+<li class="menu-head"><strong>PARNERSHIP</strong></li>
+<li><a href="/account/referral">Refer a friend</a></li>
+
+
+<li><a href="/joinus">Become a local expert</a></li>
+</ul>
+ <ul class="footer-menu col-md-4 col-xs-12 list-unstyled">
+<li class="menu-head"><strong>HOTLINES</strong></li>
+
+<li><i class="icomoon-icon-mail-3"></i><a href="/cdn-cgi/l/email-protection#ea83848c85aa809f999e8d85868bc4898587" target="_blank"><span class="__cf_email__" data-cfemail="2655535656495452664c53555241494a470845494b">[email&#160;protected]</span></a></li>
+<li><i class="icomoon-icon-comments"></i><a href="javascript:fiuzu.contact()">Chat with us</a></li>
+</ul>
+</div>
+<div class="col-xs-12 col-sm-4 col-md-3 text-center">
+<a href="https://itunes.apple.com/en/app/justgola-asia-trip-planner/id1056005447?mt=8" target="_blank">
+<img class="download-app mb-5" src="/static/images/app/gettheapp/btn-appstore.png" width="145" alt="Justgola" />
+</a>
+<a href="https://play.google.com/store/apps/details?id=com.fiuzu.android" target="_blank">
+<img class="download-app mt-5" src="/static/images/app/gettheapp/btn-googleplay.png" class="top-buffer" width="145" alt="Justgola" />
+</a>
+<div class="social-floating-box col-xs-12">
+<ul class="list-unstyled">
+<li class="share-facebook"><a href="https://www.facebook.com/Justgo.la" target="_blank"><i class="icomoon-icon-facebook"></i></a></li>
+<li class="share-googleplus"><a href="https://plus.google.com/+fiuzu/" rel="publisher" target="_blank"><i class="icomoon-icon-google-plus"></i></a></li>
+<li class="share-twitter"><a href="https://twitter.com/justgola2015" target="_blank"><i class="icomoon-icon-twitter"></i></a></li>
+<li class="share-pinterest"><a href="https://www.pinterest.com/justgola/" target="_blank"><i class="icomoon-icon-pinterest"></i></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="footer-copyright text-center">
+<p class="col-xs-12 copyright">&copy; 2014-2016 www.justgola.com Fiuzu Pte. Ltd All rights reserved</p>
+<div class="col-xs-12 text-center">
+<a href="http://www.dmca.com/Protection/Status.aspx?ID=050ceeac-9c95-45a0-ac76-1065a6f047c5" title="DMCA.com Protection Status" class="dmca-badge"> <img src="//images.dmca.com/Badges/dmca_protected_sml_120m.png?ID=050ceeac-9c95-45a0-ac76-1065a6f047c5" alt="DMCA.com Protection Status" /></a>
+</div>
+</div>
+</div>
+
+
+<div class="back-to-top">
+<a href="#" class="scroll-top" title="Back To Top">
+↑ <span>Scroll to top</span>
+</a>
+</div>
+
+<div class="modal modal-xs" id="fiuzu-dialog">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<h3 class="modal-title text-left fui-gray">Message</h3>
+</div>
+<div class="modal-body">
+<p class="dialog-content"></p>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+<div class="modal" id="fiuzu-confirm" data-backdrop="static" data-keyboard="false">
+<div class="modal-dialog">
+<div class="modal-content">
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/template" id="tpl-confirm">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h3 class="modal-title text-left fui-gray"><%- data.title || 'Confirm' %></h3>
+  </div>
+  <div class="modal-body">
+      <p class="dialog-content"><%= data.message %></p>
+  </div>
+  <div class="modal-footer">
+      <% _.each(data.buttons, function(button, i){ %>
+        <<%= button.url ? 'a' : 'button' %> type="button" <%= button.redirect ? '' : 'target="_blank"' %> <%= button.url ? 'href="' + button.url + '"' : '' %> class="btn btn-default pull-right <%- button.description ? 'tipT' : '' %> <% if(button.primary) { %>btn-success<% } %>" title="<%-button.description %>" data-id="<%- button.id %>"><%- button.title %></<%= button.url ? 'a' : 'button' %>>
+      <% }); %>
+  </div>
+</script>
+<div class="loading-box modal col-xs-12 text-center" id="loading-box">
+<div class="fui-box">
+<div class="loading col-xs-2"></div>
+<div class="box-content col-xs-10 fleft">Loading ...</div>
+</div>
+</div>
+<div class="modal fade" id="download-app-mobile" data-keyboard="false" data-backdrop="false">
+<div class="modal-body text-center">
+<button type="button" id="no-thank-download" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+<h4 class="text-center">Justgola App helps plan travel easily</h4>
+<a href="/travel-app" class="btn-plain btn popup-button">Get Justgola App Now</a>
+<br>
+<br>
+<a href="/account/register" class="btn btn-link popup-button">Sign Up</a><span>or</span><a href="/account/login" class="btn btn-link popup-button">Login</a>
+</div>
+</div>
+<script type="text/javascript">var console = {};console.log = function(){};console.info = function(){};console.warn = function(){};console.error = function(){};
+</script>
+<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.0/backbone-min.js"></script>
+<script type="text/javascript" src="/static/js/lib/unveil2/2.0.3/unveil2.min.js?v=1.1.320"></script>
+
+<script type="text/javascript">
+  $('img[data-src], section[data-src], div[data-src]').unveil({
+    offset: 150,
+    breakpoints: [{
+      minWidth: 768,
+      attribute: 'data-src-md'
+    },{
+      minWidth: 1200,
+      attribute: 'data-src-lg'
+    }]
+  });
+  </script>
+
+<script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/iCheck/1.0.1/icheck.min.js"></script>
+<script type='text/javascript' src="/static/v2/js/libs/typeahead/0.11.1/typeahead.bundle.min.js?v=1.1.320"></script>
+<script type="text/javascript" src="/static/js/fiuzu/common/fiuzu.common.all.js?v=1.1.320"></script>
+
+<script type="text/javascript">
+  window.fiuzu = window.fiuzu || {};
+  fiuzu.session = fiuzu.session || {};
+  fiuzu.DEBUG = false;
+  
+  fiuzu.session.isMobile = null;
+  fiuzu.currencies = {"NAD":13.845043,"QAR":3.6413,"EGP":8.858012,"BGN":1.789901,"PAB":1.0,"PHP":48.502706,"BOB":6.860256,"DKK":6.82704,"BWP":10.655977,"LBP":1504.496856,"TZS":2247.191,"VND":22325.0,"KHR":4031.999906,"MYR":4.190007,"KYD":0.81971,"UAH":25.497365,"AZN":1.628602,"AWG":1.79,"SAR":3.750298,"EUR":0.917801,"HKD":7.75474,"CHF":0.99391,"GIP":0.821597,"BYR":20020.0,"SVC":8.721995,"HRK":6.847302,"THB":35.099998,"BND":1.392501,"UYU":28.0197,"NIO":29.071199,"LAK":8123.999804,"NPR":106.749714,"SYP":516.999904,"MZN":77.129997,"YER":249.949997,"ZAR":13.871102,"PYG":5705.99972,"NGN":317.549988,"CRC":547.400024,"GBP":0.82274,"LKR":147.800003,"PKR":104.739998,"HUF":283.649994,"BMD":1.0,"MNT":2345.000545,"JMD":128.899994,"SCR":13.34203,"SHP":0.821602,"AFN":65.949997,"MMK":1285.000432,"KPW":899.999726,"TRY":3.111698,"ANG":1.770153,"LRD":89.999876,"XCD":2.700398,"NOK":8.27673,"MOP":7.987202,"INR":66.845001,"MXN":18.844801,"CZK":24.802894,"BTN":66.800003,"COP":2962.5,"MUR":35.750147,"IDR":13031.0,"HNL":22.520113,"FJD":2.0578,"ISK":113.459999,"PEN":3.357701,"BZD":1.980102,"ILS":3.851598,"DOP":46.049999,"GGP":0.82235,"BSD":1.0,"SEK":9.077978,"JEP":0.82235,"AUD":1.317802,"SRD":6.829758,"CUP":0.999902,"BBD":2.0,"KRW":1145.599976,"VEF":9.97501,"IMP":0.82235,"CLP":650.390015,"LTL":3.048698,"ALL":124.889999,"KZT":333.299988,"RUB":62.692001,"TTD":6.6695,"OMR":0.385009,"BRL":3.165897,"SBD":7.853019,"PLN":3.980597,"MKD":56.110001,"EEK":14.36301,"TWD":31.683979,"MVR":15.049819,"BAM":1.797901,"CAD":1.33954,"GYD":205.000268,"SOS":559.000039,"SGD":1.39454,"UZS":3064.999865,"IRR":31750.999965,"CNY":6.781903,"NZD":1.403698,"FKP":0.8213,"LVL":0.62055,"USD":1.0,"KGS":68.489998,"ARS":15.18699,"RON":4.127101,"GTQ":7.530502,"RSD":112.675697,"JPY":105.272003};
+  
+    fiuzu.session.currency = "USD";
+    fiuzu.session.xrate = 1.0;
+  
+</script>
+
+<script type="text/template" id="inc-user">
+  <% if (data.is_business === true && data.is_business_disabled === false) { %>
+    <a class="dropdown-toggle" data-toggle="dropdown">
+      <% if (data.avatar === null) { %>
+        <img src="/static/images/avatar-default.png" width="34" height="34" class="img-circle image mr-5" />
+       <% }else { %>
+         <img src="<%= data.avatar.sizes.md.url %>" width="34" height="34" class="img-circle image mr-5" />
+       <% } %>
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu fui-gray list-unstyled">
+        <li>
+            <a href="/u/<%= data.username %>" class="fleft fui-row-full">
+                <% if (data.avatar === null) { %>
+                 <img width="34" height="34" src="/static/images/avatar-default.png" class="fleft img-circle image mr-5" />
+                 <% }else { %>
+                   <img width="34" height="34" src="<%= data.avatar.sizes.md.url %>" class="fleft img-circle image mr-5" />
+                 <% } %>
+                <strong class="fleft text-ellipsis" style="width: 80px"><%= data.name %></strong>
+                <span class="fleft text-ellipsis">Local Business</span>
+            </a>
+        </li>
+        <li><a href="/account/setting/"><i class="icomoon-icon-cog"></i>Account</a></li>
+        <li class="divider fleft fui-row-full"></li>
+        <li><a href="/business/setting/profile"><i class="icomoon-icon-office"></i>Business Profile</a></li>
+        <li><a href="/booking/my-booking"><i class="icomoon-icon-list-view-2"></i>Manage Bookings</a></li>
+        <% if (data.is_business) { %>
+          <% var not_service = 0; %>
+          <% for (var i=0; i<=data.service_auto_create_place.length; i++) { if (data.business_type == data.service_auto_create_place[i]) {not_service=1;} } %>
+          <% if (!not_service) { %>
+          <li>
+            <a href="/business/service/listing"><i class="icomoon-icon-list-view-2"></i>Services</a>
+          </li>
+          <% } %>
+        <% } %>
+        <li><a href="/business/setting/payment"><i class="icomoon-icon-coin"></i>Payment setting</a></li>
+        <li class="divider"></li>
+        <li class="last"><a href="/account/logout?next=/404.html"><i class="icomoon-icon-out"></i>Sign out</a></li>
+    </ul>
+  <% }else { %>
+       <a class="dropdown-toggle" data-toggle="dropdown">
+          <% if (data.avatar === null) { %>
+          <img src="/static/images/avatar-default.png" width="34" height="34" class="img-circle image mr-5" />
+         <% }else { %>
+           <img src="<%= data.avatar.sizes.md.url %>" width="34" height="34" class="img-circle image mr-5" />
+         <% } %>
+          <b class="caret"></b>
+      </a>
+      <ul class="dropdown-menu fui-gray list-unstyled">
+       <li>
+        <a class="fleft fui-row-full" href="/u/<%= data.username %>">
+         <% if (data.avatar === null) { %>
+         <img width="34" height="34" src="/static/images/avatar-default.png" class="fleft img-circle image mr-5" />
+         <% }else { %>
+           <img width="34" height="34" src="<%= data.avatar.sizes.md.url %>" class="fleft img-circle image mr-5" />
+         <% } %>
+         <strong style="width: 80px" class="fleft text-ellipsis"><%= data.name %></strong>
+         <span class="fleft text-ellipsis">Beginner</span>
+        </a>
+       </li>
+       <li class="divider fleft fui-row-full"></li>
+       <li><a href="/u/<%= data.username %>/plans"><i class="icomoon-icon-list-view-2"></i>List of plans
+        <span class="badge"><%= data.count_plan %></span>
+       </a></li>
+       <li><a href="/booking/my-booking"><i class="icomoon-icon-list-view-2"></i>Manage Bookings</a></li>
+       <li><a href="/u/<%= data.username %>/wishlist"><i class="icomoon-icon-heart-4"></i>Wishlist
+        <span class="badge"><%= data.count_wishlist %></span>
+       </a></li>
+       <li><a href="/account/setting/profile"><i class="icomoon-icon-user"></i>Profile</a></li>
+       <li><a href="/account/setting/"><i class="icomoon-icon-cog"></i>Account</a></li>
+       <li><a href="/account/business/activate"><i class="icomoon-icon-user-4"></i>Activate business</a></li>
+       <li class="divider"></li>
+       <li class="last"><a href="/account/logout?next=/404.html"><i class="icomoon-icon-out"></i>Sign out</a></li>
+      </ul>
+    <% } %>
+  </script>
+
+
+
+
+<script type="text/javascript">
+(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+  for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f)}})(document,window.mixpanel||[]);
+  mixpanel.init("08dae63793f13ffb68fb76a5fcc14582");
+</script>
+
+
+<script>
+    (function() {
+      var _fbq = window._fbq || (window._fbq = []);
+      if (!_fbq.loaded) {
+        var fbds = document.createElement('script');
+        fbds.async = true;
+        fbds.src = '//connect.facebook.net/en_US/fbds.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(fbds, s);
+        _fbq.loaded = true;
+      }
+      _fbq.push(['addPixelId', '416037115252581']);
+    })();
+    window._fbq = window._fbq || [];
+    window._fbq.push(['track', 'PixelInitialized', {}]);
+  </script>
+<noscript>
+    <img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=416037115252581&amp;ev=PixelInitialized" />
+  </noscript>
+
+<div id="fb-root"></div>
+<script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : 399094896869309,
+        channelUrl : '',
+        status     : true,
+        xfbml      : true,
+        cookie     : true
+      });
+    };
+
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "//connect.facebook.net/en_US/all.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+  </script>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-2270073771231784",
+    enable_page_level_ads: true
+  });
+</script>
+</body>
+</html>
